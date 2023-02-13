@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Home from './components/Home.jsx/Home';
-import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
+    <div>
     <Home/>
 
     </div>

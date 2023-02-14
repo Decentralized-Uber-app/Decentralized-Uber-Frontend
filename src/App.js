@@ -1,16 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home.jsx/Home';
-import Navbar from './components/Navbar/Navbar';
+import "./App.css";
+import Home from "./Components/Home";
+import Login from "./Components/Login";
+import DriverUpload from "./Components/DriverUpload";
 
 function App() {
-  return (
-    <div className="App">
-    <Navbar/>
-    <Home/>
-
-    </div>
-  );
+  return <DriverUpload />;
 }
 
 export default App;

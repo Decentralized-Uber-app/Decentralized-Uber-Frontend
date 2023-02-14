@@ -1,38 +1,270 @@
-.App {
-  text-align: center;
+:root {
+  font-family: "Poppins", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  color: #0db760;
 }
+.ellipse-1 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 581px;
+  top: 16px;
+  border-radius: 9999px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  background: #0047ff;
+}
+.ellipse-2 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 385px;
+  top: 239px;
+  border-radius: 9999px;
+
+  background: #ff0000;
+}
+.ellipse-3 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 460px;
+  top: 200px;
+  border-radius: 9999px;
+
+  background: #0047ff;
+}
+.ellipse-4 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 111px;
+  top: 110px;
+  border-radius: 9999px;
+
+  background: #0047ff;
+}
+.ellipse-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 432px;
+  top: 43px;
+  border-radius: 9999px;
+  background: #4d4d4d;
+}
+.ellipse-6 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 543px;
+  top: 172px;
+  border-radius: 9999px;
+
+  background: #f9f047;
+}
+.ellipse-7 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 320px;
+  top: 170px;
+  border-radius: 9999px;
+
+  background: #24ff00;
+}
+.ellipse-8 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 104px;
+  top: 40px;
+  border-radius: 9999px;
+  background: #ff0000;
+}
+.ellipse-9 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 273px;
+  top: 74px;
+  border-radius: 9999px;
+
+  background: #0db760;
+}
+.ellipse-10 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 317px;
+  top: 0px;
+  border-radius: 9999px;
+  background: #0047ff;
+}
+.ellipse-11 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 15px;
+  top: 50px;
+  border-radius: 9999px;
+  background: #0db760;
+}
+.ellipse-12 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 513px;
+  top: 246px;
+  background: #0db760;
+  border-radius: 9999px;
+}
+.home-btn {
+  background: #fe8c759c;
+}
+.hero-header,
+.hero-text {
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 1024px) {
+  .ellipse-9 {
+    left: 179px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 667px) {
+  .ellipse-9,
+  .ellipse-1,
+  .ellipse-11,
+  .ellipse-12,
+  .ellipse-2,
+  .ellipse-5,
+  .ellipse-8,
+  .ellipse-4,
+  .ellipse-3,
+  .ellipse-6,
+  .ellipse-7,
+  .login-ellipse-1,
+  .login-ellipse-2,
+  .login-ellipse-3,
+  .login-ellipse-4,
+  .login-ellipse-5,
+  .login-ellipse-6,
+  .login-ellipse-7,
+  .login-ellipse-8,
+  .login-ellipse-9,
+  .login-ellipse-10 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.login-navbar-btn {
+  background: #0dc767;
+  border: 3px solid #058f47;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.login-ellipse-1 {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  left: 399px;
+  top: 188px;
+  background: #0047ff;
+}
+.login-ellipse-2 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 147px;
+  top: 188px;
+
+  background: #0db760;
+}
+.login-ellipse-3 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 276px;
+  top: 73px;
+
+  background: #0db760;
+}
+.login-ellipse-4 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 392px;
+  top: 118px;
+
+  background: #ff0000;
+}
+.login-ellipse-5 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 605px;
+  top: 78px;
+
+  background: #0047ff;
+}
+.login-ellipse-6 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 680px;
+  top: 185px;
+
+  background: #0db760;
+}
+.login-ellipse-7 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 673px;
+  top: 317px;
+
+  background: #ff0000;
+}
+.login-ellipse-8 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 801px;
+  top: 324px;
+
+  background: #0db760;
+}
+.login-ellipse-9 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 831px;
+  top: 250px;
+
+  background: #f9f047;
+}
+.login-ellipse-10 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 869px;
+  top: 94px;
+
+  background: #0047ff;
+}
+.login {
+  background: #ececec;
+}
+.login-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #1a355e;
+}
+.login-btn {
+  background: #0db760;
+}
+.navbar-transition {
+  transition: all 0.3s;
+}
+.navbar-items-transition {
+  transition: opacity 0.1s;
 }

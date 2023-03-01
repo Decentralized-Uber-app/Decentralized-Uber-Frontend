@@ -20,7 +20,7 @@ const DriverUpload = () => {
     "ellipse-12",
   ];
   return (
-    <div className="h-screen">
+    <div className="h-screen z-0">
       {ellipses.map((ellipse) => (
         <div key={ellipse} className={ellipse}></div>
       ))}
@@ -32,7 +32,7 @@ const DriverUpload = () => {
         <div>
           <img src={heroEllipseGroup} alt="ellipse" />
         </div>
-        <div>
+        <div className="relative right-2  sm:right-0">
           <img src={heroEllipseGroup2} alt="ellipse" />
         </div>
       </aside>

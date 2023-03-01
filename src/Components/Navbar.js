@@ -29,9 +29,9 @@ const Navbar = () => {
         </div>
         <div className="xl:w-1/5 md:block hidden lg:pr-0 w-1/2 pr-5 lg:w-1/3 h-full">
           <ul className="w-full justify-between flex">
-            <li>Driver</li>
-            <li>Rider</li>
-            <li>Admin</li>
+            <li className="underline-hover">Driver</li>
+            <li className="underline-hover">Rider</li>
+            <li className="underline-hover">Admin</li>
           </ul>
         </div>
         <div onClick={toggle} className="block bg-slate-200 md:hidden text-4xl">
